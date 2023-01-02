@@ -1,0 +1,103 @@
+*{
+    padding: 2px;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: "inria Sans-Serifregular";
+      min-height: 650px;
+      background-image: linear-gradient(to right, #0000FF , #00FFFF);
+       display: flex;
+     align-items: center;
+    justify-content: center;
+ }
+ .form{
+         width: 300px;
+         height: 800px;
+         background-color: #C0C0C0;
+         padding: 4rem;
+          border-radius: 20px;
+         position: absolute;
+ }
+ .nn img{
+             width: 200px;
+           position: relative;
+             top:5px;
+             left:-30px;
+ }
+ .frm input{ 
+              position: relative;
+       
+              border-radius: 15px;
+                              
+             width:140%;
+              outline: none;
+               left: -30px;
+
+              display: block;
+              top: 15px;
+              border: none;
+               background-color: #3b85ca;
+                  font-size: 16px;
+                  color: black;
+                  text-align: center;
+                   line-height: 40px;
+                   margin: 20px 0px;
+                   transition: bottom 1s;
+            }
+            .form .link{ 
+                         font-family: Arial, Helvetica, sans-serif;
+                           font-size: 17px;
+                             padding-top: 90px;
+                              text-align: center;
+                       }
+    .form .link a{ 
+                      text-decoration: none;
+                    color: #2057cc;
+                   }
+     ::placeholder{
+                    color: rgb(15, 3, 3);             
+     }
+     .btnn{ 
+              width: 80%;
+              position:absolute;
+              left:35px;
+              top:670px;
+              height: 40px;
+              background: #bd450d;
+              border: none;
+              margin-top: 30px;
+              font-size: 18px;
+              border-radius: 10px;
+               cursor: pointer;
+                color: #fff;
+                 transition: 0.4s ease;
+          }
+    .btnn:hover{
+                        background: rgb(8, 177, 8);
+                       color: #117eb1;
+              }
+    .btnn a{
+                          text-decoration: none; 
+                         color: rgb(12, 6, 6);
+                          font-weight: bold;
+                }
+     .eye{
+       position:absolute;
+       top:500px;
+       right: 30px;
+       
+     }
+     #hide1{
+       display:none;
+     }
+     #hide3{
+       display:none;
+     }
+     .eye1{
+       position:absolute;
+       top:565px;
+       right:30px;
+     }
+
+

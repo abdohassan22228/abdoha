@@ -1,0 +1,105 @@
+header {
+    background-color: #246bbd;
+    width: 120%;
+    position:fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 100px;
+  }
+  .logo {
+    position: relative;
+    right:70px;
+   text-decoration:none ;
+   color: #f7f3f3;
+   text-transform: uppercase;
+   font-weight: 50%;
+   font-size: 2em;
+   padding: 6px 15px;
+  border-radius: 15px;
+  }
+  .logo:hover {
+    background-color: #f44336;
+    color:#ffffff;
+  }
+  .navigation a{ 
+    text-decoration: none;
+    position: relative;
+    right: 500px;
+    font-size: 2em;
+    font-weight: 500;
+    padding-right: -120px;
+    color: #f44336; 
+    padding: 6px 15px;
+    border-radius: 15px;
+  }
+  .navigation a:hover { 
+    background-color: #000000;
+    color: #601cfc;
+  }
+  .mn { 
+      width: 100%;
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      background-position-y: -380px;
+
+      background-attachment: fixed;
+    }
+    .ll { 
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      right: 6;
+      z-index: 1;
+    }
+    .hhh{ 
+      position: absolute;
+      right: 140px;
+      top: 170px;
+    }
+   
+    .ll h2 span { 
+      display: inline-block;
+      margin-top: 10px;
+      color: #4e9eff;
+      font-size: 3em;
+      font-weight: 600;
+    }
+    .ll img{ 
+      position: absolute;
+      top: 90px;
+      left: 40px;
+    }
+    .ll h3 { 
+      color: rgb(21, 18, 194);
+      font-size: 2em;
+      position: absolute;
+      top: 220px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+    .log { 
+      color: #f44336;
+      background-color: #000000;
+      text-decoration: none;
+      position: relative;
+      top: 240px;
+      font-size: 1.1em;
+      font-weight: 600;
+      display: inline-block;
+      padding: 0.9375em 2.1875em;
+      letter-spacing: 1px;
+      border-radius: 15px;
+      margin-bottom: 40px;
+      transition: 0.7s ease;
+    }
+    .log:hover, .mm{ 
+      background-color: #0a49f6;
+      transform: scale(1.1);
+    }
